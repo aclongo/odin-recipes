@@ -9,6 +9,16 @@ ol {
   text-align: left;
 }
 
+h1 {
+  color: blue;
+}
+
+h1,
+h2,
+h3 {
+  font-variant: small-caps;
+}
+
 .description {
   font-size: 18px;
 }
@@ -28,7 +38,12 @@ img {
 
 .return-home,
 .credit {
-    font-weight: bold;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.home-nav {
+  text-align: center;
 }
 
 .credit {
