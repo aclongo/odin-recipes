@@ -1,9 +1,16 @@
 body  {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
 
-h1 {
-  text-align: center;
+h3,
+ul,
+ol {
+  text-align: left;
+}
+
+.description {
+  font-size: 18px;
 }
 
 img {
@@ -17,4 +24,13 @@ img {
 .tall-img {
   height: auto;
   width: 300px;
+}
+
+.return-home,
+.credit {
+    font-weight: bold;
+}
+
+.credit {
+  font-size: 12px;
 }
