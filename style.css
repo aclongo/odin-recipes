@@ -1,21 +1,19 @@
 body  {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  background-color: lightgrey;
 }
 
-h3,
-ul,
-ol {
+h3, ul, ol {
   text-align: left;
 }
 
 h1 {
-  color: blue;
+  color: rgb(52, 52, 168);
 }
 
-h1,
-h2,
-h3 {
+h2, h3 {
+  background-color:cadetblue;
   font-variant: small-caps;
 }
 
@@ -36,8 +34,7 @@ img {
   width: 300px;
 }
 
-.return-home,
-.credit {
+.return-home, .credit {
   font-weight: bold;
   font-size: 18px;
 }
