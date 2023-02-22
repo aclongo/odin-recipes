@@ -1,7 +1,7 @@
 body  {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
-  background-color: lightgrey;
+  background-color: rgb(177, 224, 217);
 }
 
 h3, ul, ol {
@@ -14,14 +14,23 @@ h1 {
 
 h2, h3 {
   background-color:cadetblue;
-  font-variant: small-caps;
+  color: white;
+  padding: 8px;
+}
+
+.lists {
+  width: 600px;
+  margin: 0 auto;
 }
 
 .description {
   font-size: 18px;
   width: 500px;
-  max-width: 400px;
   margin: 0 auto;
+  border-style: dashed;
+  padding: 10px;
+  background: cadetblue;
+  color: white;
 }
 
 img {
