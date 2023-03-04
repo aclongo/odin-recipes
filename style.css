@@ -27,6 +27,7 @@ body  {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding: 16px;
   gap: 16px;
 }
@@ -61,7 +62,8 @@ img {
   margin-right: auto;
 }
 
-.tall-img {
+.tall-img,
+.wide-img {
   width: 400px;
   height: auto;
 }
