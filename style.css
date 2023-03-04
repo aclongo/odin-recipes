@@ -34,6 +34,7 @@ body  {
 .nav-bar {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   width: 250px;
   flex-shrink: 0;
   flex-grow: 0;
@@ -43,14 +44,14 @@ body  {
 }
 
 .description {
-  font-size: 20px;
-  width: 400px;
+  font-size: 18px;
+  width: 350px;
   text-align: center;
   margin: 0 auto;
   border-style: dotted;
   padding: 10px;
-  background: rgb(61, 122, 122);
-  color: white;
+  background: rgb(236, 213, 224);
+  color: rgb(159, 80, 117);
 }
 
 img {
@@ -58,6 +59,11 @@ img {
   max-width: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+.tall-img {
+  width: 400px;
+  height: auto;
 }
 
 .links {
@@ -90,22 +96,13 @@ h1 {
   color: rgb(236, 213, 224);
 }
 
-/*h2, h3 {
-  background-color:cadetblue;
-  color: white;
+h2, h3 {
+  background-color: rgb(191, 125, 156);
+  color: rgb(236, 213, 224);
   padding: 8px;
-}*/
+}
 
 .lists {
-  width: 600px;
+  width: 400px;
   margin: 0 auto;
-}
-
-.return-home, .credit {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.credit {
-  font-size: 12px;
 }
