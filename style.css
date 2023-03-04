@@ -1,9 +1,11 @@
 body  {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
-  background-color: rgb(177, 224, 217);
+  background-color: rgb(95, 146, 146);
+  margin: 0;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .header,
@@ -12,6 +14,8 @@ body  {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 75px;
+  background-color: rgb(191, 125, 156);
 }
 
 .center {
@@ -23,19 +27,43 @@ body  {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 16px;
+  gap: 16px;
 }
 
 .nav-bar {
   display: flex;
-  flex-grow: 0;
+  flex-wrap: wrap;
+  width: 250px;
   flex-shrink: 0;
-  background-color: teal;
+  flex-grow: 0;
+  background-color: rgb(61, 122, 122);
   padding: 16px;
-  width: 200px;
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  border-style: dotted;
+  padding: 10px;
+  background: rgb(61, 122, 122);
+  color: white;
+}
+
+img {
+  height: 300px;
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .links {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -45,6 +73,13 @@ li {
 a {
   text-decoration: none;
   color: white;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+a:hover {
+  color: rgb(159, 80, 117);
+  background-color: rgb(236, 213, 224);
 }
 
 h3, ul, ol {
@@ -52,41 +87,18 @@ h3, ul, ol {
 }
 
 h1 {
-  color: rgb(52, 52, 168);
+  color: rgb(236, 213, 224);
 }
 
-h2, h3 {
+/*h2, h3 {
   background-color:cadetblue;
   color: white;
   padding: 8px;
-}
+}*/
 
 .lists {
   width: 600px;
   margin: 0 auto;
-}
-
-.description {
-  font-size: 18px;
-  width: 500px;
-  margin: 0 auto;
-  border-style: dashed;
-  padding: 10px;
-  background: cadetblue;
-  color: white;
-}
-
-img {
-  height: auto;
-  max-width: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tall-img {
-  height: auto;
-  width: 300px;
 }
 
 .return-home, .credit {
